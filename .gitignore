@@ -1,0 +1,18 @@
+# Python environments and caches
+/.venv/
+Python/.venv/
+**/__pycache__/
+*.py[cod]
+
+# IDE/editor files
+Python/.idea/
+.vscode/*.log
+
+# Local OS files
+.DS_Store
+Thumbs.db
+
+# Local outputs that can be regenerated
+*.log
+*.tmp
+*.bak

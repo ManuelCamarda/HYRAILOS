@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: current file",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal",
+      "cwd": "${fileDirname}",
+      "justMyCode": false
+    },
+    {
+      "name": "Run HYRAILOS case study",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/Python/Case_Study_Simulation/User_Settings.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}/Python/Case_Study_Simulation",
+      "justMyCode": false
+    }
+  ]
+}
